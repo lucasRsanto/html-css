@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem</title>
+</head>
+<!-- Picture > source media="(max-widht: tamanho da foto pequena ou média)" srcset="arqquivo da imagem" type:"tipo da imagem" > img: imagem grande-->
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Uma Imagem adaptada abaixo.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/Foto-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

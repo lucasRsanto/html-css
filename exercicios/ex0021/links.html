@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: rgb(138, 21, 235);
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(30, 210, 54);
+        }
+
+        .especial::before {
+            content: '→';
+        }
+
+        .especial{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.youtube.com/@alanzoka" target="_blank" class="especial">Canal do Alanzoka</a></li>
+        <li><a href="https://www.mercadolivre.com.br/" target="_blank">Mercado Livre</a></li>
+    </ul>
+</body>
+</html>
