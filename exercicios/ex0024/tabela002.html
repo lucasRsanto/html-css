@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            
+        }
+
+        caption{
+            font-size: 1.1em;
+            background-color: aqua;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+        }    
+        
+        th{
+            background-color: gray;
+            padding: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <caption>Número de gols marcado por cada Jogador</caption>
+        <thead>
+            <tr>
+                <th scope="col">Ano</th>
+                <th scope="col">Nome do Jogador</th>
+                <th scope="col" style="width: 50px;">Número de gols marcados</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1930</td>
+                <td>Guilhermo Stábile</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>1950</td>
+                <td>Ademir de Menezes</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>1954</td>
+                <td>Sandor Kocsis</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>1958</td>
+                <td>Just Fontaine</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>1966</td>
+                <td>Eusébio</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>1970</td>
+                <td>Gerd Muller</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>Ronaldo Nazário</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
