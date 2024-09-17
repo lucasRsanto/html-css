@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+       <fieldset>
+        <legend>sexo</legend>
+        <input type="radio" name="sexo" id="isexo" value="masculino">
+        <label for="isexo">Masculino:</label>
+        <input type="radio" name="sexo" id="isexo" value="feminino">
+        <label for="isexo">Feminino</label>
+       </fieldset>
+       
+       <fieldset>
+        <legend>Filmes</legend>
+        <input type="checkbox" name="diverdidamente"
+        id="idivertidamente">
+        <label for="Idivertidamente">divertidamente</label>
+        <input type="checkbox" name="alien" id="ialien">
+        <label for="ialien">Alien</label>
+        <input type="checkbox" name="jurassic" id="ijurassic">
+        <label for="ijurassic">Jurassic Park</label>
+        <input type="checkbox" name="trapalhoes" id="itrapalhoes">
+        <label for="itrapalhoes">Trapalhõe
+
+        </label>
+       </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
