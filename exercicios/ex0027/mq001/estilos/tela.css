@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Impressora */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
